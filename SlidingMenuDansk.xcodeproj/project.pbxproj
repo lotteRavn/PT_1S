@@ -12,6 +12,9 @@
 		C83DA3B01C6A386D0082F412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3AE1C6A386D0082F412 /* Main.storyboard */; };
 		C83DA3B21C6A386D0082F412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3B11C6A386D0082F412 /* Assets.xcassets */; };
 		C83DA3B51C6A386D0082F412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3B31C6A386D0082F412 /* LaunchScreen.storyboard */; };
+		C83DA3BF1C6A4C6B0082F412 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83DA3BE1C6A4C6B0082F412 /* MenuTableViewController.swift */; };
+		C83DA3C11C6A4CA70082F412 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83DA3C01C6A4CA70082F412 /* ContainerViewController.swift */; };
+		C83DA3C31C6A4CB80082F412 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83DA3C21C6A4CB80082F412 /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C83DA3B11C6A386D0082F412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83DA3B41C6A386D0082F412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83DA3B61C6A386D0082F412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83DA3BE1C6A4C6B0082F412 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C83DA3C01C6A4CA70082F412 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C83DA3C21C6A4CB80082F412 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		C83DA39E1C6A386D0082F412 = {
 			isa = PBXGroup;
 			children = (
+				C83DA3BE1C6A4C6B0082F412 /* MenuTableViewController.swift */,
+				C83DA3C01C6A4CA70082F412 /* ContainerViewController.swift */,
+				C83DA3C21C6A4CB80082F412 /* MasterViewController.swift */,
 				C83DA3A91C6A386D0082F412 /* SlidingMenuDansk */,
 				C83DA3A81C6A386D0082F412 /* Products */,
 			);
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83DA3C31C6A4CB80082F412 /* MasterViewController.swift in Sources */,
 				C83DA3AD1C6A386D0082F412 /* ViewController.swift in Sources */,
 				C83DA3AB1C6A386D0082F412 /* AppDelegate.swift in Sources */,
+				C83DA3C11C6A4CA70082F412 /* ContainerViewController.swift in Sources */,
+				C83DA3BF1C6A4C6B0082F412 /* MenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
